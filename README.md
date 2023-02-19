@@ -1,41 +1,75 @@
-MERN Stack Hotel Booking App
+# MERN Stack Hotel Booking App
+
 This is a hotel booking application built with the MERN (MongoDB, Express, React, and Node.js) stack. The application allows users to search for hotels and book reservations.
 
 Live Link: https://piyush-booking-app.netlify.app/
 
-Demo Video: https://www.youtube.com/watch?v=YOUR_DEMO_VIDEO_ID
+Demo Video: https://youtu.be/w0xJRBq7LNc
 
-Features
-User registration and authentication
-Hotel search functionality
-Booking reservations
-User dashboard to manage reservations
-Admin dashboard to manage hotels and reservations
-Installation
-Clone the repository:
-bash
-Copy code
+## Table of Contents
+
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Features
+
+- User registration and authentication
+- Booking reservations
+
+
+## Installation
+
+1. Clone the repository:
+
 git clone https://github.com/1109piyush/booking-web-app.git
-Install dependencies in both the client and server directories:
-bash
+
+markdown
 Copy code
+
+2. Install dependencies in both the client and server directories:
+
 cd booking-web-app/client
 npm install
-cd ../server
+cd server
 npm install
-Create a .env file in the server directory and set the following environment variables:
-makefile
-Copy code
-MONGO_URI=<your_mongo_db_uri>
-JWT_SECRET=<your_jwt_secret>
-Start the development server:
+
 bash
 Copy code
-cd ../client
+
+3. Create a `.env` file in the server directory and set the following environment variables:
+
+MONGO_URI=<your_mongo_db_uri>
+JWT_SECRET=<your_jwt_secret>
+
+markdown
+Copy code
+
+4. Start the development server:
+
+cd api
+node index.js
+cd client
 npm start
-cd ../server
-npm start
-The client will be running at http://localhost:3000 and the server will
+
+markdown
+Copy code
+
+The client will be running at `http://localhost:3000` and the server will be running at `http://localhost:4000`.
+
+## Usage
+
+Describe how to use the application.
+
+## Technologies Used
+
+- MongoDB
+- Express
+- React
+- Node.js
 
 
 
